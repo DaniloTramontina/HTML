@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validação</title>
+</head>
+<body>
+    <h3>Encontre no Google</h3>
+    <form action="https://www.google.com/search">
+        <label for="q">O que deseja pesquisar?</label>
+        <input type="text" id="q" name="q" placeholder="Html5, CSS, etc.." required minlength="5" autocomplete="on">
+        <input type="submit" value="Pesquisar">
+    </form>
+    <form action="https://www.google.com/search">
+        <label for="q">E-mail</label>
+        <input type="email" id="q" name="q" placeholder="abc@gmail.com" required autocomplete="off">
+        <input type="submit" value="Pesquisar">
+    </form>
+    <form action="https://www.google.com/search">
+        <label for="q">Idade</label>
+        <input type="number" id="q" name="q" placeholder="" required min="10" max="15">
+        <input type="submit" value="Pesquisar">
+    </form>
+</body>
+</html>
