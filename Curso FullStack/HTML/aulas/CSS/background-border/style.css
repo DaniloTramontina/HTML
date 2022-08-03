@@ -1,0 +1,19 @@
+h1 {
+  color: purple;
+  font-size: 50px;
+  background-color: gray;
+  /*  border-color: yellow;
+      border-width: 8px;
+      border-style: solid;*/
+  border: 2px solid yellowgreen;
+}
+
+li {
+  color: green;
+}
+
+body {
+  background-image: url('https://images6.fanpop.com/image/photos/37800000/Jupiter-Wallpaper-amazing-space-37899127-2560-1600.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
