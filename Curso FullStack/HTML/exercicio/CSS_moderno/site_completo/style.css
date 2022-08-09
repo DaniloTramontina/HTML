@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  background-color: #2A282A;
+  width: 100%;
+  height: 80px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+}
+
+.img_header {
+  width: 200px;
+}
+
+.menu_item{
+  display: flex;
+  gap: 25px;
+}
+
+.nav_item {
+  color: #fff;
+  cursor: pointer;
+  background-color: transparent;
+  border: 3px solid transparent;
+  padding-bottom: 5px;
+  transition: 0.4s;
+}
+
+.nav_item:hover {
+  border-bottom: 3px solid #000;
+}
+
+.titulo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 25px 0px;
+}
+
+.titulo h1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo p {
+  font-size: 22px;
+}
+
+.conteudo_geral{
+  display: flex;
+  margin: 0px 60px;
+  gap: 25px;
+}
+
+.conteudo_principal{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  margin: auto;
+}
+
+.item-conteudo-principal {
+  border: 2px solid transparent;
+  border-radius: 15px;
+  width: 354px;
+  padding-bottom: 20px;
+  margin-bottom: 5px;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.item-conteudo-principal:hover {
+  border: 2px solid #000;
+  border-radius: 15px;
+}
+
+.imagem-conteudo-principal{
+  width: 350px;
+  height: 250px;
+  border-radius: 15px;
+}
+
+.conteudo_secundario {
+  color: #fff;
+  background-color: #393839;
+  padding: 10px 40px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.titulo-sec{
+  font-size: 20px;
+  margin: 25px;
+}
+
+
+.item-conteudo-sec{
+  display: flex;
+  flex-direction: column;
+  border: 2px solid transparent;
+  border-radius: 15px;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 15px;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.item-conteudo-sec:hover{
+  border: 2px solid #fff;
+  border-radius: 15px;
+}
+
+.imagem-conteudo-sec {
+  width: 250px;
+  height: auto;
+  border-radius: 15px;
+}
+
+.item-sec {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+  display: flex;
+  background-color: #2A282A;
+  width: 100%;
+  height: 80px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+}
