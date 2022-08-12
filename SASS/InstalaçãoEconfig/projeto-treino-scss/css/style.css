@@ -1,0 +1,75 @@
+/* Neste documento contem as cores a serem usadas */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+/* nesse documento contem o SCSS geral das paginas 
+como Header, esquema de cores, footer */
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.header {
+  background-color: #0B316D;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  min-height: 80px;
+}
+.header .img-logo {
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+}
+.header .menu-list {
+  list-style: none;
+  display: flex;
+  gap: 35px;
+}
+.header .menu-list .btn-menu {
+  border: 2px solid transparent;
+  font-size: 17px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  background-image: linear-gradient(to right, #28DADA, #28DADA 50%, #afaeae 50%);
+  background-size: 200% 100%;
+  background-position: -100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.4s ease-in-out;
+  cursor: pointer;
+}
+.header .menu-list .btn-menu:before {
+  content: "";
+  background: #28DADA;
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  border-bottom: 2px solid #28DADA;
+}
+.header .menu-list .btn-menu:hover {
+  background-position: 0;
+  border-bottom: 2px solid #28DADA;
+}
+
+.title {
+  text-align: center;
+}
+.title h1 {
+  font-family: "Roboto", sans-serif;
+}
+.title p {
+  font-size: 20px;
+}
+
+/* nesse documento contem todo esquema SCSS do main da pagina index */
+.main-section img {
+  width: 350px;
+  height: 250px;
+}
+
+/*# sourceMappingURL=style.css.map */

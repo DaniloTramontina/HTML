@@ -1,0 +1,11 @@
+// esse import são para as cores
+@import "./variables/colors/colors.scss";
+
+//esse import são as fontes
+@import "./variables/fonts/fonts.scss";
+
+//esse import é o common
+@import "./variables/common/common.scss";
+
+//esse é as cfg do main da pagina index
+@import "./variables/common/main.scss";

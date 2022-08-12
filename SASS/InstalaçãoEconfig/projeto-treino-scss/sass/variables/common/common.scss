@@ -1,0 +1,70 @@
+/* nesse documento contem o SCSS geral das paginas 
+como Header, esquema de cores, footer */
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.header {
+  background-color: $first-color;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  min-height: 80px;
+  .img-logo {
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+  }
+  .menu-list {
+    list-style: none;
+    display: flex;
+    gap: 35px;
+    .btn-menu {
+      border: 2px solid transparent;
+      font-size: 17px;
+      font-family: $Ubuntu;
+      font-weight: bold;
+      background-image: linear-gradient(
+        to right,
+        $second-color,
+        $second-color 50%,
+        $third-color 50%
+      );
+      background-size: 200% 100%;
+      background-position: -100%;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      transition: all 0.4s ease-in-out;
+      cursor: pointer;
+      &:before {
+        content: "";
+        background: $second-color;
+        display: block;
+        position: absolute;
+        bottom: -3px;
+        left: 0;
+        width: 0;
+        height: 3px;
+        border-bottom: 2px solid $second-color;
+      }
+      &:hover {
+        background-position: 0;
+        border-bottom: 2px solid $second-color;
+      }
+    }
+  }
+}
+
+.title {
+  text-align: center;
+  h1 {
+    font-family: $roboto;
+  }
+  p{
+    font-size: 20px;
+  }
+}

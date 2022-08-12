@@ -1,0 +1,63 @@
+1. o que vamos fazer?
+
+  Vamos por em pratica tudo o que aprendemos até agora com o curso:
+  -html
+  -css com SCSS
+
+3. Sobre o que será no site?
+  O site ira conter o tema de um portal de informações
+
+2. o que tem que ter no site.
+
+  -Uma pagina principal
+    conteudo:
+    -Header com um logo e menu "animado"
+    -uma seção principal com 9 noticias
+      -grid: 1 1 2
+             3 4 4
+             5 6 7
+             8 8 9
+      noticia 1 : https://danilotramontina.github.io/projeto-carolina-alves/
+      imagem: imagem-3.jpg
+      noticia 2 : https://www.istoedinheiro.com.br/mundo-dos-games/
+      imagem: imagem-2.jpg
+      noticia 3 : https://www.einerd.com.br/5-dicas-para-ser-um-melhor-jogador-de-games/
+      imagem: imagem-1.jpg
+      noticia 4 : https://www.uol.com.br/start/ultimas-noticias/2020/05/08/11-documentarios-para-entender-a-industria-dos-games.htm
+      imagem: imagem-4.jpg
+      noticia 5 : https://www.oficinadanet.com.br/games/27221-fps-moba-rpg-mmo-entenda-os-principais-generos-de-jogos
+      imagem: imagem-5.jpg
+      noticia 6 : https://www.tecmundo.com.br/produto/222878-console-playstation-5-estoque-lojas-americanas-submarino.htm
+      imagem: imagem-6.jpg
+      noticia 7 : https://www.techtudo.com.br/listas/2022/02/8-vantagens-do-xbox-series-xs-que-podem-fazer-voce-desistir-de-um-ps5.ghtml
+      imagem: imagem-7.jpg
+      noticia 8 : https://www1.ufrb.edu.br/bibliotecacecult/noticias/262-materias-interessantes-o-que-e-multiverso
+      imagem: imagem-8.jpg
+      noticia 9 : https://www.fpop.com.br/entretenimento/cinema/russos-perdem-acesso-a-netflix-por-conflito-na-ucrania/
+      imagem: imagem-9.jpg
+    -uma sidebar com propagandas de 4 produtos
+    -uma seção com mais 6 noticias menores
+    -Fotter com links do header e um botão para voltar para a parte de cima da pagina
+
+  -Uma pagina de cadastro com formularios
+    -nome
+    -email
+    -endereço (rua/avenida)
+    -numero
+    -bairro
+    -senha
+
+  -Uma pagina de login
+  -login (e-mail/cpf)
+  -senha
+
+  -Uma pagina de "quem sou eu"
+    -informações sobre Danilo Tombolato Tramontina com Links
+      *Nome completo
+      *Fotos (3 fotos)
+      *Data de nascimento
+      *Onde Nasceu
+      *Com o que trabalha
+      *Sonhos
+      *Projetos em andamento
+      *Um pouco mais sobre Danilo
