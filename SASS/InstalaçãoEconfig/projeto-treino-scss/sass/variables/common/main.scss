@@ -1,4 +1,16 @@
 /* nesse documento contem todo esquema SCSS do main da pagina index */
+@mixin hover-style($background-color, $color, $position, $left, $top, $font-size, $opacity, $transition, $decoration){
+  background-color: $background-color;
+  color: $color;
+  position: $position;
+  left: $left;
+  top: $top;
+  font-size: $font-size;
+  opacity: $opacity;
+  transition: $transition;
+  text-decoration: $decoration;
+}
+
 .container {
   background-color: $background;
   min-height: 100vh;
@@ -30,20 +42,11 @@
   grid-area: item1;
 }
 
-.main-text1 {
-  background-color: $background;
-  color: #ffffff;
-  position: relative;
-  left: 40px;
-  top: 225px;
-  font-size: 1.5em;
-  text-decoration: none;
-  opacity: 0;
-  transition: opacity 0.2s linear;
-  text-decoration: underline;
+.main-text1{
+  @include hover-style ($background, #ffffff, relative, 40px, 225px, 1.5rem, 0, opacity 0.2s linear, underline);
 }
 
- .item1:hover .main-text1{
+.item1:hover .main-text1{
   opacity: 0.8;
 }
 
@@ -51,32 +54,96 @@
   grid-area: item2;
 }
 
+.main-text2{
+  @include hover-style ($background, #ffffff, relative, 40px, 225px, 1.5rem, 0, opacity 0.2s linear, underline);
+}
+
+.item2:hover .main-text2{
+  opacity: 0.8;
+}
+
 .item3 {
   grid-area: item3;
+}
+
+.main-text3{
+  @include hover-style ($background, #ffffff, relative, 40px, 225px, 1.5rem, 0, opacity 0.2s linear, underline);
+}
+
+.item3:hover .main-text3{
+  opacity: 0.8;
 }
 
 .item4 {
   grid-area: item4;
 }
 
+.main-text4{
+  @include hover-style ($background, #ffffff, relative, 40px, 225px, 1.5rem, 0, opacity 0.2s linear, underline);
+}
+
+.item4:hover .main-text4{
+  opacity: 0.8;
+}
+
 .item5 {
   grid-area: item5;
+}
+
+.main-text5{
+  @include hover-style ($background, #ffffff, relative, 40px, 225px, 1.5rem, 0, opacity 0.2s linear, underline);
+}
+
+.item5:hover .main-text5{
+  opacity: 0.8;
 }
 
 .item6 {
   grid-area: item6;
 }
 
+.main-text6{
+  @include hover-style ($background, #ffffff, relative, 40px, 225px, 1.5rem, 0, opacity 0.2s linear, underline);
+}
+
+.item6:hover .main-text6{
+  opacity: 0.8;
+}
+
 .item7 {
   grid-area: item7;
+}
+
+.main-text7{
+  @include hover-style ($background, #ffffff, relative, 40px, 225px, 1.5rem, 0, opacity 0.2s linear, underline);
+}
+
+.item7:hover .main-text7{
+  opacity: 0.8;
 }
 
 .item8 {
   grid-area: item8;
 }
 
+.main-text8{
+  @include hover-style ($background, #ffffff, relative, 40px, 225px, 1.5rem, 0, opacity 0.2s linear, underline);
+}
+
+.item8:hover .main-text8{
+  opacity: 0.8;
+}
+
 .item9 {
   grid-area: item9;
+}
+
+.main-text9{
+  @include hover-style ($background, #ffffff, relative, 40px, 225px, 1.5rem, 0, opacity 0.2s linear, underline);
+}
+
+.item9:hover .main-text9{
+  opacity: 0.8;
 }
 
 .double-news {

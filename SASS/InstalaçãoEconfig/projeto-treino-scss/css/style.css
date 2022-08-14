@@ -100,8 +100,7 @@ como Header, esquema de cores, footer */
   position: relative;
   left: 40px;
   top: 225px;
-  font-size: 1.5em;
-  text-decoration: none;
+  font-size: 1.5rem;
   opacity: 0;
   transition: opacity 0.2s linear;
   text-decoration: underline;
@@ -115,32 +114,160 @@ como Header, esquema de cores, footer */
   grid-area: item2;
 }
 
+.main-text2 {
+  background-color: rgba(146, 146, 146, 0.7764705882);
+  color: #ffffff;
+  position: relative;
+  left: 40px;
+  top: 225px;
+  font-size: 1.5rem;
+  opacity: 0;
+  transition: opacity 0.2s linear;
+  text-decoration: underline;
+}
+
+.item2:hover .main-text2 {
+  opacity: 0.8;
+}
+
 .item3 {
   grid-area: item3;
+}
+
+.main-text3 {
+  background-color: rgba(146, 146, 146, 0.7764705882);
+  color: #ffffff;
+  position: relative;
+  left: 40px;
+  top: 225px;
+  font-size: 1.5rem;
+  opacity: 0;
+  transition: opacity 0.2s linear;
+  text-decoration: underline;
+}
+
+.item3:hover .main-text3 {
+  opacity: 0.8;
 }
 
 .item4 {
   grid-area: item4;
 }
 
+.main-text4 {
+  background-color: rgba(146, 146, 146, 0.7764705882);
+  color: #ffffff;
+  position: relative;
+  left: 40px;
+  top: 225px;
+  font-size: 1.5rem;
+  opacity: 0;
+  transition: opacity 0.2s linear;
+  text-decoration: underline;
+}
+
+.item4:hover .main-text4 {
+  opacity: 0.8;
+}
+
 .item5 {
   grid-area: item5;
+}
+
+.main-text5 {
+  background-color: rgba(146, 146, 146, 0.7764705882);
+  color: #ffffff;
+  position: relative;
+  left: 40px;
+  top: 225px;
+  font-size: 1.5rem;
+  opacity: 0;
+  transition: opacity 0.2s linear;
+  text-decoration: underline;
+}
+
+.item5:hover .main-text5 {
+  opacity: 0.8;
 }
 
 .item6 {
   grid-area: item6;
 }
 
+.main-text6 {
+  background-color: rgba(146, 146, 146, 0.7764705882);
+  color: #ffffff;
+  position: relative;
+  left: 40px;
+  top: 225px;
+  font-size: 1.5rem;
+  opacity: 0;
+  transition: opacity 0.2s linear;
+  text-decoration: underline;
+}
+
+.item6:hover .main-text6 {
+  opacity: 0.8;
+}
+
 .item7 {
   grid-area: item7;
+}
+
+.main-text7 {
+  background-color: rgba(146, 146, 146, 0.7764705882);
+  color: #ffffff;
+  position: relative;
+  left: 40px;
+  top: 225px;
+  font-size: 1.5rem;
+  opacity: 0;
+  transition: opacity 0.2s linear;
+  text-decoration: underline;
+}
+
+.item7:hover .main-text7 {
+  opacity: 0.8;
 }
 
 .item8 {
   grid-area: item8;
 }
 
+.main-text8 {
+  background-color: rgba(146, 146, 146, 0.7764705882);
+  color: #ffffff;
+  position: relative;
+  left: 40px;
+  top: 225px;
+  font-size: 1.5rem;
+  opacity: 0;
+  transition: opacity 0.2s linear;
+  text-decoration: underline;
+}
+
+.item8:hover .main-text8 {
+  opacity: 0.8;
+}
+
 .item9 {
   grid-area: item9;
+}
+
+.main-text9 {
+  background-color: rgba(146, 146, 146, 0.7764705882);
+  color: #ffffff;
+  position: relative;
+  left: 40px;
+  top: 225px;
+  font-size: 1.5rem;
+  opacity: 0;
+  transition: opacity 0.2s linear;
+  text-decoration: underline;
+}
+
+.item9:hover .main-text9 {
+  opacity: 0.8;
 }
 
 .double-news img {
