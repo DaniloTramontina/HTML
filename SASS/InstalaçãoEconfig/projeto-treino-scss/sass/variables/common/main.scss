@@ -1,14 +1,16 @@
 /* nesse documento contem todo esquema SCSS do main da pagina index */
-@mixin hover-style($background-color, $color, $position, $left, $top, $font-size, $opacity, $transition, $decoration){
+@mixin hover-style($background-color, $color, $position, $left, $bottom, $font-size, $opacity, $transition, $decoration, $font-family, $font-weight){
   background-color: $background-color;
   color: $color;
   position: $position;
-  left: $left;
-  top: $top;
+  margin-left: $left;
+  margin-bottom: $bottom;
   font-size: $font-size;
   opacity: $opacity;
   transition: $transition;
   text-decoration: $decoration;
+  font-family: $font-family;
+  font-weight: $font-weight;
 }
 
 .container {
@@ -16,6 +18,7 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  padding-top: 15px;
 }
 
 .main-section {
@@ -38,12 +41,22 @@
     "item8 item8 item9";
 }
 
+.link-externo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
 .item1 {
+  width: 725px;
+  height: 250px;
   grid-area: item1;
 }
 
-.main-text1{
-  @include hover-style ($background, #ffffff, relative, 40px, 225px, 1.5rem, 0, opacity 0.2s linear, underline);
+.main-text1 {
+  @include hover-style ($text-background, #ffffff, absolute, 25px, 15px, 1.5rem, 0, opacity 0.2s linear, underline, $roboto, 700);
+  width: 550px;
 }
 
 .item1:hover .main-text1{
@@ -55,7 +68,9 @@
 }
 
 .main-text2{
-  @include hover-style ($background, #ffffff, relative, 40px, 225px, 1.5rem, 0, opacity 0.2s linear, underline);
+  @include hover-style ($text-background, #ffffff, absolute, 25px, 15px, 1.5rem, 0, opacity 0.2s linear, underline, $roboto, 700);
+  width: 275px;
+
 }
 
 .item2:hover .main-text2{
@@ -67,7 +82,8 @@
 }
 
 .main-text3{
-  @include hover-style ($background, #ffffff, relative, 40px, 225px, 1.5rem, 0, opacity 0.2s linear, underline);
+  @include hover-style ($text-background, #ffffff, absolute, 25px, 15px, 1.5rem, 0, opacity 0.2s linear, underline, $roboto, 700);
+  width: 275px;
 }
 
 .item3:hover .main-text3{
@@ -79,7 +95,8 @@
 }
 
 .main-text4{
-  @include hover-style ($background, #ffffff, relative, 40px, 225px, 1.5rem, 0, opacity 0.2s linear, underline);
+  @include hover-style ($text-background, #ffffff, absolute, 25px, 15px, 1.5rem, 0, opacity 0.2s linear, underline, $roboto, 700);
+  width: 550px;
 }
 
 .item4:hover .main-text4{
@@ -91,7 +108,8 @@
 }
 
 .main-text5{
-  @include hover-style ($background, #ffffff, relative, 40px, 225px, 1.5rem, 0, opacity 0.2s linear, underline);
+  @include hover-style ($text-background, #ffffff, absolute, 25px, 15px, 1.5rem, 0, opacity 0.2s linear, underline, $roboto, 700);
+  width: 275px;
 }
 
 .item5:hover .main-text5{
@@ -103,7 +121,8 @@
 }
 
 .main-text6{
-  @include hover-style ($background, #ffffff, relative, 40px, 225px, 1.5rem, 0, opacity 0.2s linear, underline);
+  @include hover-style ($text-background, #ffffff, absolute, 25px, 15px, 1.5rem, 0, opacity 0.2s linear, underline, $roboto, 700);
+  width: 275px;
 }
 
 .item6:hover .main-text6{
@@ -115,7 +134,8 @@
 }
 
 .main-text7{
-  @include hover-style ($background, #ffffff, relative, 40px, 225px, 1.5rem, 0, opacity 0.2s linear, underline);
+  @include hover-style ($text-background, #ffffff, absolute, 25px, 15px, 1.5rem, 0, opacity 0.2s linear, underline, $roboto, 700);
+  width: 275px;
 }
 
 .item7:hover .main-text7{
@@ -127,7 +147,8 @@
 }
 
 .main-text8{
-  @include hover-style ($background, #ffffff, relative, 40px, 225px, 1.5rem, 0, opacity 0.2s linear, underline);
+  @include hover-style ($text-background, #ffffff, absolute, 25px, 15px, 1.5rem, 0, opacity 0.2s linear, underline, $roboto, 700);
+  width: 550px;
 }
 
 .item8:hover .main-text8{
@@ -139,7 +160,8 @@
 }
 
 .main-text9{
-  @include hover-style ($background, #ffffff, relative, 40px, 225px, 1.5rem, 0, opacity 0.2s linear, underline);
+  @include hover-style ($text-background, #ffffff, absolute, 25px, 15px, 1.5rem, 0, opacity 0.2s linear, underline, $roboto, 700);
+  width: 275px;
 }
 
 .item9:hover .main-text9{
@@ -147,10 +169,10 @@
 }
 
 .double-news {
-  img {
-    width: 100%;
+  img
+  {
+    width: 725px;
     height: 250px;
-    z-index: -1;
   }
 }
 

@@ -1,0 +1,26 @@
+.advertising {
+  padding: 25px;
+  background-color: $text-background;
+}
+
+.content-advertising {
+  border: 1px solid transparent;
+  padding: 5px 25px;
+  margin-bottom: 25px;
+  color: #ffffff;
+  height: auto;
+  cursor: pointer;
+  &:hover{
+    border: 1px solid black;
+  }
+
+}
+
+.advertising-title{
+  font-family: $Ubuntu;
+  min-width: 170px;
+}
+
+.advertising-description{
+  font-family: Arial, Helvetica, sans-serif;
+}

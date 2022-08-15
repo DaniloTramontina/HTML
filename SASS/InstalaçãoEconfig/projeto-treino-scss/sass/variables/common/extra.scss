@@ -1,0 +1,26 @@
+.extra-content{
+  display: grid;
+  grid-area: extra-content;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(80px, auto);
+  grid-template-areas: 
+  'extra1 extra2 extra3'
+  ;
+  margin: 25px 25px;
+  padding: 15px;
+  gap: 15px;
+}
+
+.extra-item1{
+  grid-area: extra1;
+  border-right: 2px solid black;
+}
+
+.extra-item2{
+  grid-area: extra2;
+  border-right: 2px solid black;
+}
+
+.extra-item3{
+  grid-area: extra3;
+}
