@@ -1,0 +1,47 @@
+main{
+  background-color: $background;
+}
+
+.form-title {
+  font-family: $Ubuntu;
+  text-align: center;
+}
+
+.main-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-data {
+  background-color: $text-background;
+  padding: 25px;
+  border: 2px solid $text-background;
+  margin-bottom: 15px;
+  color: #ffffff;
+  .form-data-item {
+    padding: 5px;
+  }
+  & .form-data-input{
+    display: flex;
+    width: 250px;
+    border-radius: 5px;
+    padding-left: 5px;
+  }
+}
+
+.form-submit {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  & input {
+    padding: 12px;
+    border-radius: 12px;
+    cursor: pointer;
+  }
+}
+
+.mandatory{
+  font-size: 10px;
+  padding-top: 15px;
+}
