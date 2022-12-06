@@ -1,0 +1,11 @@
+@import "./others/color.scss";
+
+@import "./others/page.scss";
+
+body {
+  background-image: url(../images/backgroundLp.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  color: #ffffff;
+}

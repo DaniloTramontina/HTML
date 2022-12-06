@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-image: url(../images/backgroundLp.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  color: #ffffff;
+}
+
+.formBody{
+  background-color: #131212f1;
+  width: 450px;
+  height: auto;
+}
+
+.topLogo {
+  width: 180px;
+}
+
+.paragraph{
+  margin: 8px 0px;
+}
+
+.btn {
+  color: #ff0043;
+  border: 1px solid #ff0043;
+}
